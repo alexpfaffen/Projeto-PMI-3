@@ -7,7 +7,7 @@
 
 🎁 _*Proposta de Valor:* Gestão eficiente da manutenção dos veiculos, com monitoramento em tempo real do status do serviço e atribuição de técnico responsável pelo reparo, garantindo agilidade e transparência no atendimento ao cliente.
 
-🧑‍💻👩‍💻 _*Equipe:* Claudio Dalla Valle / Tiago Marcelo Dalbosco / Evandro Teixeira dos Santos Filho
+🧑‍💻👩‍💻 _*Equipe:*  Tiago Marcelo Dalbosco / Alex Pfaffenzeller
 
 🛠️ _*Recursos/Tecnologias Utilizados:* 
 -------------------
