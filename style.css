@@ -5,7 +5,97 @@ body{
     margin: 0;
     padding: 0;
     text-decoration: none;
-    font-size: x-small;
+    font-size: small;
+}
+
+/* index */
+
+#sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    background-color: #151D2C;
+    color: #fff;
+    padding-top: 20px;
+}
+
+#sidebar .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 10px;
+    
+}
+
+#sidebar .logo img {
+    max-width: 120px;
+}
+
+.submenu {
+    display: none;
+    padding-left: 10px;
+    padding-block: auto;
+}
+
+.submenu.active {
+    display: block;
+}
+
+#sidebar hr {
+    border-color: #3F4A5C;
+}
+
+#sidebar .menu-item {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#sidebar .menu-item:hover {
+    background-color: #3F4A5C;
+    padding-left: 20px;
+
+}
+
+#content {
+    margin-left: 250px;
+    padding: 20px;
+}
+
+#content h2 {
+    margin-top: 0;
+}
+
+#content-dashboard{
+    background-color: #DDD;
+    height: 100vh;
+}
+
+header {
+    color: #6B6B6B;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #fff;
+}
+.company-logo {
+    display: flex;
+    align-items: center;
+}
+.company-name {
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.user-info {
+    display: flex;
+}
+svg {
+    max-width: 16px;
 }
 
 .container{
@@ -54,22 +144,21 @@ h2, p{
     flex-direction: column;
     align-items: center;
     width: 100%;
+    height: 60%;
     color: #767676;
-
 }
 
-#loginForm h2, p{
-    margin-top: 0;
-    margin-bottom: 16px;
-    width: 90%;
+#loginForm h1, h2{
+    /* width: 90%; */
+    margin: 0;
+}
+
+p{
+    margin: 0 0 30px 2px;
 }
 
 .loginForm{
     width: 60%;
-}
-
-.input-container{
-    margin-bottom: 15px;
 }
 
 h1{
@@ -80,6 +169,11 @@ h1{
     display: flex;
     align-items: center;
     margin-bottom: 30px;
+}
+
+label{
+    margin-left: 4px;
+    font-size: x-small;
 }
 
 label[for= "shareInfo"]{
@@ -95,7 +189,7 @@ button{
     margin-top: 2px;
     border-radius: 5px;
     cursor: pointer;
-    font-size: x-small;
+    font-size:smaller;
 }
 
 .checkbox input{
@@ -105,11 +199,23 @@ button{
     max-height: 20px; 
 }
 
+.input-container{
+    margin-bottom: 16px;
+}
+
+
+.recover{
+    margin-bottom: 140px;
+
+}
+
 button{
     background-color: #27272A;
     color: #fff;
     border: none;
     margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 12px;
 }
 
 a{
