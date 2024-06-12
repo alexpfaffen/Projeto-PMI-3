@@ -18,7 +18,7 @@
             <img src="./img/Login/logo.svg" alt="">
         </div>
 
-        <form id="loginForm">
+        <form action="" method="POST" id="loginForm">
             <div class="loginForm">
              <div class="loginEntrar">
                 <h1>Entrar</h1>
@@ -28,7 +28,7 @@
            
              <div class="input-container">
                 <label for="emailOrCPF">Endereço de e-mail ou Cpf</label>
-                <input type="email" id="emailOrCPF" name="emailOrCPF" required placeholder="Digite o seu endereço de e-mail ou Cpf">
+                <input type="text" id="emailOrCPF" name="emailOrCPF" required placeholder="Digite o seu endereço de e-mail ou Cpf">
              </div>
             
              <div class="input-container">
@@ -40,7 +40,7 @@
                 <input type="checkbox" id="shareInfo" name="shareInfo">
                 <label for="shareInfo">Aceito compartilhar minhas informações com o Serviçe control</label>
              </div>
-             <button type="submit">Acessar</button>
+             <button type="submit" onclick="logar(); return false">Acessar</button>
              <a href="./recuperar_senha.html">Esqueceu a conta?</a>
             </div>
         </form>
