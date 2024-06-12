@@ -6,6 +6,11 @@ body{
     padding: 0;
     text-decoration: none;
     font-size: small;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
 }
 
 /* index */
@@ -56,7 +61,6 @@ body{
 #sidebar .menu-item:hover {
     background-color: #3F4A5C;
     padding-left: 20px;
-
 }
 
 #content {
@@ -74,28 +78,32 @@ body{
 }
 
 header {
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    margin-left: 200px;
     color: #6B6B6B;
     padding: 10px 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-radius: 5px;
     background-color: #fff;
 }
-.company-logo {
+
+.ajust-header{
+    width: 100%;
     display: flex;
     align-items: center;
 }
-.company-name {
-    margin-left: 10px;
+
+svg {
+    width: 16px;
+}
+
+.company {
     font-weight: bold;
     font-size: 18px;
+    margin-left: 10px;
 }
-.user-info {
+
+.notificacao{
     display: flex;
-}
-svg {
-    max-width: 16px;
 }
 
 .container{
@@ -149,7 +157,6 @@ h2, p{
 }
 
 #loginForm h1, h2{
-    /* width: 90%; */
     margin: 0;
 }
 
